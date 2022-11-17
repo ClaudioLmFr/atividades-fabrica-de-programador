@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.card {
+    width: 30%;
+    margin: 50px auto;
+    background-color: cadetblue;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.card h1 {
+    color: white;
+    font-weight: 300;
+}
+
+.card input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card button {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card button:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+    color: white;
+    font-weight: 800;
+}

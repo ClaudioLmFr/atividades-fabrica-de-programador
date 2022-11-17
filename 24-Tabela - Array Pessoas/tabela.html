@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tabela.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="inputs">
+            <span>
+                <input type="checkbox" id="likeJavaScript">Gosta de Javascript
+            </span>
+            <span>
+                <input type="checkbox" id="developer">É desenvolvedor(a)
+            </span>
+            <span>
+                <input type="checkbox" id="brazilian">GBrasileiro(a)
+            </span>
+            <span>
+                <input type="checkbox" id="greaterThan">Maior de Idade
+            </span>
+        </div>
+        <div class="buttons">
+            <button onclick="filteredTable()">Filtrar</button>
+            <button onclick="clearFilters()">Limpar</button>
+        </div>
+        <div>
+            <table id="table"></table>
+        </div>
+    </div>
+    <script src="tabela.js"></script>
+</body>
+
+</html>

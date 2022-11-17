@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="cadastro-cliente.css">
+    <script src="cadastro.js"></script>
+</head>
+
+<body>
+
+    <form name="formulario" class="formulario">
+        <input id="nome" name="nome" type="text" placeholder="Nome completo">
+        <input id="email" name="email" type="email" placeholder="Email">
+        <input id="idade" name="idade" type="number" placeholder="Idade">
+
+        <p>Pessoa física ou jurídica?</p>
+        <input name="tipo" type="radio" value="Física"> Física
+        <input name="tipo" type="radio" value="jurídica"> jurídica
+        <button type="button" onclick="salvar()">Salvar</button>
+    </form>
+</body>
+
+</html>

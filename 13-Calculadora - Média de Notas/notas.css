@@ -1,0 +1,38 @@
+h1 {
+    font-family: sans-serif;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 20px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid;
+    width: 400px;
+    padding: 10px;
+}
+
+.card1>div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.card1>div:not(:first-child) {
+    display: flex;
+    justify-content: space-between;
+}
+.div .maiorNota {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

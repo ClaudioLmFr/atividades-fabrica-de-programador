@@ -1,0 +1,48 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.container input {
+    width: 200px;
+    align-items: right;
+    border-radius: 10px;
+    border: none;
+}
+
+.container label {
+    font-family: sans-serif;
+    color: blue;
+    padding: 10px;
+}
+
+ .button {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    
+}
+.container button {
+    border: none;
+    border-radius: 10px;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: green;
+    font-weight: 800;
+    border-radius: 10px;
+}

@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Calculadora Hight Tech</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylecalculadora.css"/>
+
+</head>
+
+<body>
+    <div class="card">
+        <h1>Calculadora Hight Tech</h1>
+
+        <div>
+            <input type="number" placeholder="Número 1" id="numero1">
+        </div>
+        <div>
+            <input type="number" placeholder="Número 2" id="numero2">
+        </div>
+
+        <button onclick="somar()">+</button>
+        <button onclick="subtrair()">-</button>
+        <button onclick="multiplicar()">*</button>
+        <button onclick="dividir()">/</button>
+    </div>
+</body>
+
+<script>
+
+    function somar() {
+        let n1String = document.getElementById("numero1").value
+        let n2String = document.getElementById("numero2").value
+
+        let n1Convertido = parseFloat(n1String)
+        let n2Convertido = parseFloat(n2String)
+
+        let soma = n1Convertido + n2Convertido
+
+        window.alert("O resultado da soma é: " + soma)
+    }
+    function subtrair() {
+        let n1String = document.getElementById("numero1").value
+        let n2String = document.getElementById("numero2").value
+
+        let n1Convertido = parseFloat(n1String)
+        let n2Convertido = parseFloat(n2String)
+
+        let subtracao = n1Convertido - n2Convertido
+
+        window.alert("O resultado da subtração é: " + subtracao)
+    }
+    function multiplicar() {
+        let n1String = document.getElementById("numero1").value
+        let n2String = document.getElementById("numero2").value
+
+        let n1Convertido = parseFloat(n1String)
+        let n2Convertido = parseFloat(n2String)
+
+        let multiplicacao = n1Convertido * n2Convertido
+
+        window.alert("O resultado da multiplicação é: " + multiplicacao)
+    }
+    function dividir() {
+        let n1String = document.getElementById("numero1").value
+        let n2String = document.getElementById("numero2").value
+
+        let n1Convertido = parseFloat(n1String)
+        let n2Convertido = parseFloat(n2String)
+
+        let divisao = n1Convertido / n2Convertido
+
+        window.alert("O resultado da divisão é: " + divisao)
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(17, 190, 190, 0.836);
+    font-family: sans-serif;
+}
+h1 {
+    margin-top: 50px;
+    color: rgb(26, 24, 24);
+    font-size: 40px;
+    text-align: center;
+}
+legend {
+    background-color: rgb(184, 54, 162);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+fieldset {
+    background-color: brown;
+    border: 1px solid gray;
+    padding: 20px 10px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+}
+input {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 3px;
+    
+}
+button {
+    display: block;
+    padding: 8px 25px;
+    background-color: rgb(184, 54, 162);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+}

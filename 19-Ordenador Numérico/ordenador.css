@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+.card {
+    width: 300px;
+    border: none;
+    padding: 10px 0px;
+    margin: auto;
+    padding: auto;
+    
+
+}
+.card1{
+    display: flex;
+    color: darkslategrey;
+    background-color: darkseagreen;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid;
+    width: 400px;
+    padding: 20PX;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+    
+}
+.button {
+    text-align: center;
+    width: auto;
+    padding: 10px auto;
+    margin-bottom: 10px;
+}
+.card1 .add, .order {
+    width: 400px;
+    padding: 10px;
+}
+
+

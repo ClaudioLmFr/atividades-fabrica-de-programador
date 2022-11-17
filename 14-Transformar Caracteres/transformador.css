@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+textarea {
+    width: 400px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.card {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card .grande, .card .pequeno, .card .quanto {
+    margin-bottom: 10px;
+}

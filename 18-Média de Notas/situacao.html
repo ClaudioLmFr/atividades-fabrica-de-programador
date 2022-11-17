@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média do Aluno</title>
+    <link rel="stylesheet" href="situacao.css">
+</head>
+
+<body>
+    <h1>Situação do Aluno</h1>
+    <div class="entradas">
+        <input type="number" id="numero" placeholder="Digite a nota!">
+        <button onclick="adicionar()" id="adicionar">Adicionar</button>
+        <button onclick="finalizar()" id="finalizar">Finalizar</button>
+    </div>
+    <div class="saidas">
+        <div class="divNotas">
+            <span>Notas:</span>
+            <span id="notas"></span>
+        </div>
+        <div class="divMaiorNota">
+            <span>Maior Nota:</span>
+            <span id="maiorNota"></span>
+        </div>
+        <div class="divMenorNota">
+            <span>Menor Nota:</span>
+            <span id="menorNota"></span>
+        </div>
+        <div class="divMedia">
+            <span>Média:</span>
+            <span id="media"></span>
+        </div>
+        <div class="situacao">
+            <span>Situação do Aluno:</span>
+            <span id="situacao"></span>
+        </div>
+    </div>
+    <script src="situacao.js"></script>
+</body>
+</html>

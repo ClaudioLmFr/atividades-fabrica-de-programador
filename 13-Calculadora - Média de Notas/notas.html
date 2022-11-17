@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notas.css">
+    <script src="notas.js"></script>
+    <title>Situação do Aluno</title>
+</head>
+
+<body>
+    <h1>Situação do Aluno</h1>
+    <div class="card">
+        <input type="number" id="novaNota" placeholder="Nova nota">
+        <button onclick="adicionar()">Adicionar</button>
+    </div>
+    <div class="card1">
+        <div class="notas">
+            <span>Notas:</span>
+            <span type="nota" id="notaAdicionada"></span>
+        </div>
+        <div class="maiorNota">
+            <span>Maior nota:</span>
+            <span class="span1" id="maiorNota"></span>
+        </div>
+        <div class="menorNota">
+            <span>Menor nota:</span>
+            <span class="span2" id="menorNota"></span>
+        </div>
+        <div class="mediaNota">
+            <span>Média:</span>
+            <span class="span3" id="mediaNota"></span>
+        </div>
+        <div class="situacao">
+            <span>Situação do Aluno:</span>
+            <span class="span4" id="situacao"></span>
+        </div>
+    </div>
+</body>
+
+</html>
