@@ -6,6 +6,8 @@ Este repositório implementa atividades realizadas no decorrer do curso Fábrica
 ## Recursos utilizados
 
 -HTML
+
 -CSS
+
 -JAVASCRIPT
 
